@@ -49,7 +49,7 @@ else
       <>
 <div className='body'>
   <div class="course-container">
-  <img src={`${courses[id].img}`} alt="Course Image" className="course-image"/>
+  <img src={`${courses[id].img}`} alt="Course Image" className="course-image" style={{ margin:"10px"}}/>
     <div class="course-info">
       <h1 class="course-title">{courses[id].name}</h1>
       <p class="course-price"><h4 style={{ display: 'inline-block'}}>Price:</h4> {courses[id].cost}EGP</p>
