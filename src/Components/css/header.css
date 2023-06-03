@@ -14,7 +14,7 @@ li {
 
   @media screen and (max-width: 500px) {
     a {
-      font-size: 14px !important; /* Even smaller font size on mobile */
+      font-size: 15px !important; /* Even smaller font size on mobile */
       padding: 4px 10px !important; /* Adjust padding */  
       margin: 10px 2px !important;
     }
@@ -23,16 +23,14 @@ li {
       margin: 10px 2px !important;
     }
 
-  /*  header{
-        width: 400px !important;
-    }*/
+ 
   }
 
  
   @media screen and (max-width: 400px) {
     a {
-      font-size: 12px !important; /* Even smaller font size on mobile */
-      padding: 4px 4px !important; /* Adjust padding */  
+      font-size: 13px !important; /* Even smaller font size on mobile */
+      padding: 4px 7px !important; /* Adjust padding */  
       margin: 10px 2px !important;
     }
     li{
