@@ -1,0 +1,20 @@
+li {
+    margin: 5px 0; /* Add space between list items */
+  }
+  
+  a {
+    font-size: 14px;  /* Decrease default font size */
+    padding: 5px 10px;  /* Add padding to make click target larger */
+  }
+  
+  /* Active link */
+  .active {
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 600px) {
+    a {
+      font-size: 12px; /* Even smaller font size on mobile */
+      padding: 3px 8px; /* Adjust padding */  
+    }
+  }
