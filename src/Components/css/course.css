@@ -24,6 +24,7 @@
     flex-wrap: wrap;
     max-width: 800px;
     padding: 20px;
+     padding-top: 100px !important;
   }
   
   .course-image {
