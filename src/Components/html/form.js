@@ -37,7 +37,8 @@ function Form() {
     if (!validateForm()) {
       return;
     }
-
+    // leave this as a comment till a real deployment when we need a server to hold data users will enter
+/*
     let existingData = await fetch('http://localhost:5000/array');
     let data = await existingData.json();
     if (data.some(d => {
@@ -56,9 +57,9 @@ function Form() {
            'Content-Type': 'application/json',
          },
          body: JSON.stringify(formData),
-       });
+       });*/
        navigate('./thanks');
-    }
+   // }
      
      
   };
