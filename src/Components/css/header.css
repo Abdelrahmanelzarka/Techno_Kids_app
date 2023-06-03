@@ -12,9 +12,34 @@ li {
     font-weight: bold;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 500px) {
     a {
-      font-size: 12px; /* Even smaller font size on mobile */
-      padding: 3px 8px; /* Adjust padding */  
+      font-size: 14px !important; /* Even smaller font size on mobile */
+      padding: 4px 10px !important; /* Adjust padding */  
+      margin: 10px 2px !important;
     }
+    li{
+        padding: 4px 4px /* Adjust padding */   !important;
+      margin: 10px 2px !important;
+    }
+
+  /*  header{
+        width: 400px !important;
+    }*/
   }
+
+ 
+  @media screen and (max-width: 400px) {
+    a {
+      font-size: 12px !important; /* Even smaller font size on mobile */
+      padding: 4px 4px !important; /* Adjust padding */  
+      margin: 10px 2px !important;
+    }
+    li{
+        padding: 4px 4px /* Adjust padding */   !important;
+      margin: 10px 2px !important;
+    }
+}
+
+    
+ 
