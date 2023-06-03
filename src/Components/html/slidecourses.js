@@ -19,7 +19,7 @@ const CardCollection = () => {
 
   useEffect(()=>{
     setSpinner(true);
-      fetch('http://localhost:8000/array')
+      fetch('https://www.npoint.io/docs/b8770e6c15bf3ba55b8b/array')
       .then(res=>{
           return res.json();
       }).then(data=>{
