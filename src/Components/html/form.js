@@ -101,7 +101,7 @@ function Form() {
 
   useEffect(()=>{
     setSpinner(true);
-      fetch('https://api.npoint.io/b8770e6c15bf3ba55b8b')
+      fetch('https://api.npoint.io/b8770e6c15bf3ba55b8b/array')
       .then(res=>{
           return res.json();
       }).then(data=>{
